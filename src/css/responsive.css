@@ -1,0 +1,49 @@
+@media (max-width: 1280px) {
+  body {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information .description {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media (max-width:425px) {
+  body {
+    padding: 1rem;
+  }
+
+  .content {
+    min-height: 70vh;
+    gap: 3.125rem;
+  }
+
+  .information .logo {
+    max-width: 18.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .information .description {
+    width: 100%;
+  }
+
+  .side-menu {
+    position: static;
+    min-height: auto;
+    width: 100%;
+    margin-top: 3.125rem;
+  }
+
+  .side-menu ul {
+    flex-direction: row;
+  }
+}
